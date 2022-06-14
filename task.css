@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  border-bottom: 3px solid rgb(25, 25, 143);
+  text-align: center;
+  padding: 0.3rem;
+}
+.bodySection {
+  background: rgb(56, 56, 139);
+  height: 52vh;
+  width: 100vw;
+}
+.bodySection h1{
+    color: white;
+}
+.bodySectionText {
+  color: white;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bodySectionText p {
+  margin-top: 0.5rem;
+  width: 60vw;
+  text-align: center;
+}
+.bodyContact {
+  margin-top: 0rem;
+  width: 65%;
+  height: 95vh;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgb(252, 252, 252);
+  z-index:1;
+  border: none;
+  box-shadow: 0px 0px 3px 3px rgb(236, 235, 235);
+}
+.bodyContact form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+  padding: 1rem;
+}
+form .formName {
+  padding: 1rem;
+}
+.bodyContact form label {
+  font-weight: 300;
+}
+.bodyContact form Input {
+  width: 20vw;
+}
+.formPara {
+  width: 75%;
+  font-size:smaller;
+  margin: auto;
+  margin-top: -1rem;
+}
+.Formbtn{
+    height: 14vh;
+   
+}
+.Formbtn Button {
+  margin-left: 6.8rem;
+}
+.Formbtn Button:hover{
+    border: 2px solid orangered;
+    box-shadow: 0px 0px 3px 3px orange;
+}
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 50vh; */
+  margin-top: 5rem;
+  background-color: rgb(239, 242, 245);
+}
+.style{
+     clip-path: ellipse(50% 34% at 50% 4%);
+     height: 100px;
+     background-color: rgb(239, 242, 245);
+}
+.help h6,h1{
+    color: orange;
+}
+.help p{
+    width: 23vw;
+    text-align: center;
+}
+.contact h1{
+    color: orange;
+}
+.call h1{
+    color: orange;
+}
+.support h1 {
+    color: orange;
+}
+.help .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.help .call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.help .support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footerUp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+    /* height: 40vh; */
+    margin-bottom: 1rem;
+}
+.infoNext{
+    display: flex;
+
+}
+.info Input{
+    width: 20vw;
+    border-radius:25px;
+    margin: 1rem 0rem;
+}
+#routine{
+    width: 20vw;
+    border-radius:15px;
+}
+.alert{
+    display: flex;
+    justify-content: space-between;
+    width: 32vw;
+}
+.alert h1{
+    color: orange;
+}
+.alert h4{
+font-weight: bold;
+}
+.alert p{
+    width: 25vw;
+}
+#submitbtn{
+    margin-left: 1.5rem;
+    background-color: orange;
+    border: none;
+}
+#submitbtn:hover{
+    background-color: orange;
+}
+.Formbtn Button{
+    background-color: orange;
+    border: none;
+}
+.Formbtn Button:hover{
+    background-color: orange;
+}
+#submitbtn:hover{
+    border: 2px solid orangered;
+    box-shadow: 0px 0px 3px 3px orange;
+}
+.footer{
+    text-align: center;
+    border-top: 2px solid black;
+}
+.footer h1{
+    color: orange;
+}
+.line{
+    border-bottom: 2px solid rgb(206, 203, 203);
+    position: relative;
+    top: 14rem;
+    z-index:0;
+}
+.style1{
+    clip-path: ellipse(50% 40% at 50% 1%);
+    height: 100px;
+    background: rgb(56, 56, 139);
+    /* position: relative;
+    top: 5rem; */
+}
+.circle{
+    position: relative;
+    top: -6rem;
+}
+@media screen and (max-width:1024px){
+.style1{
+    top: 7.2rem;
+}
+.bodyContact{
+    height: 80vh;
+}
+#textArea{
+    width: 48vw;
+}
+
+  .Formbtn Button {
+    margin-left: 5.3rem;
+    margin-top: 1rem;
+}
+.help .contact{
+    width: 30vw;
+}
+.help .call{
+    width: 30vw;
+}
+.help .support{
+    width: 30vw;
+}
+}
+@media screen and (max-width:768px){
+.style1{
+    top: 5.3rem;
+}
+#textArea{
+    height: 90px;
+    width: 33vw;
+}
+.bodyContact form Input {
+    width: 27vw;
+  }
+  .formPara{
+      width: 68%;
+  }
+  .bodyContact{
+      height: 120vh;
+      width: 55%;
+  }
+  .bodyContact form Input{
+      width: 33vw;
+  }
+  .formPara {
+    width: 60%;
+}
+.Formbtn Button {
+    /* margin-left: 4rem; */
+    margin-top: 0.5rem;
+    font-size: small;
+}
+}
+
+@media screen and (max-width:425px){
+    .style1{
+        top: 5.3rem;
+    }
+    .bodySectionText p{
+        font-size: 15px;
+    }
+    .bodyContact form Input {
+        width: 50vw;
+    }
+    .bodyContact {
+        height: 134vh;
+        width: 80%;
+    }
+    .Formbtn Button {
+        margin-left: 4.2rem;
+        margin-top: 0rem;
+    }
+    .help p {
+        width: 50vw;
+    }
+    .footerUp{
+        flex-direction: column;
+    }
+    .alert{
+        width: 60vw;
+        justify-content: center;
+    }
+    .alert p {
+        width: 40vw;
+    }
+    .alert h1{
+        font-size: 2rem;
+    }
+    .info Input {
+        width: 40vw;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .formPara{
+        width: 60%;
+    }
+    #routine {
+        width: 40vw;
+    }
+    #textArea{
+        width: 50vw;
+    }
+}
+@media screen and (max-width:375px){
+    .formPara {
+        width: 60%;
+    }
+    .Formbtn Button {
+        margin-top: 0.5rem;
+    }
+    .Formbtn Button {
+        margin-left: 3.7rem;
+    }
+    .footerUp{
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width:320px)
+{
+    .Formbtn Button {
+        margin-left: 3.1rem;
+    }
+    .help p {
+        width: 80vw;
+    }
+}
